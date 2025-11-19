@@ -5,13 +5,16 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(googletest)
 
-add_executable(lab0_b main.cpp lab0.h
+add_executable(lab0_b main.cpp
         writetocsv.cpp
         filereader.cpp
         wordcounter.cpp
+        wordcounter.h
+        filereader.h
+        writetocsv.h
 )
 
-add_executable(test_lab0 test_lab0.cpp lab0.h
+add_executable(test_lab0 test_lab0.cpp
         writetocsv.cpp
         filereader.cpp
         wordcounter.cpp
