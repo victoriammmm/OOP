@@ -1,4 +1,4 @@
-#include "lab0.h"
+#include "writetocsv.h"
 #include <fstream>
 #include <iomanip>
 
@@ -17,3 +17,4 @@ bool CSVWriter::writeCSV(const std::string& filename, const WordCounter& counter
     file.close();
     return true;
 }
+
