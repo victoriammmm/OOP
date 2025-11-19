@@ -1,5 +1,7 @@
 #include <iostream>
-#include "lab0.h"
+#include "filereader.h"
+#include "wordcounter.h"
+#include "writetocsv.h"
 
 int main(const int argc, char* argv[]) {
     if (argc != 3) {
