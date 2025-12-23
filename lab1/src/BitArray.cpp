@@ -1,4 +1,4 @@
-#include "bitarray.h"
+#include "BitArray.h"
 #include <stdexcept>
 
 BitArray::BitArray() {
