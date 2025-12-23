@@ -1,4 +1,4 @@
-#include "wordcounter.h"
+#include "WordCounter.h"
 #include <iostream>
 #include <algorithm>
 
@@ -44,4 +44,5 @@ void WordCounter::sortByFrequency() {
     };
     std::ranges::sort(sortedWords, compareByFrequencyDescending);
 }
+
 
