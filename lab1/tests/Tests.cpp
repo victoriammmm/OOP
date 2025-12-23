@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "bitarray.h"
+#include "BitArray.h"
 #include <stdexcept>
 
 class BitArrayTest : public testing::Test {
