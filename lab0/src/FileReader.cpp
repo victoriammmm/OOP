@@ -1,4 +1,4 @@
-#include "filereader.h"
+#include "FileReader.h"
 #include <fstream>
 #include <iostream>
 
@@ -16,4 +16,5 @@ bool FileReader::readFile(const std::string& filename) {
     file.close();
     return true;
 }
+
 
